@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}/02-complier-setting",
+            "webRoot": "${workspaceFolder}/03",
             "sourceMaps": true
         }
     ]
