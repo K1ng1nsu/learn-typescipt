@@ -1,3 +1,24 @@
+01 - 타입, 연산자
+{
+    // boolean
+    // number
+    // bigint
+    // string
+    // Array<> ,[]
+    // Enum
+    // any, unknown, void
+    // Union Types
+    // Type Aliases
+    // Interface
+    // Intersection Types
+    // Utility Types -> 05
+    // 등등..
+
+
+}
+
+02 - 컴파일러 설정
+
 03 -  클래스, 인터페이스
 
 04 -  고급 타입
@@ -12,4 +33,10 @@
     // Nullish Coalescing - (??)  Falsy || FalsyFallback과 비슷하게 사용 Falsy가 null이나 undefined에만 Fallback 사용
 }
 
-5.
+05 -  제네릭
+{
+    // Generics Funtions
+    // Constraints - keyof
+    // Generics Classes
+    // Special TypeScript Types - Utility Types
+}
