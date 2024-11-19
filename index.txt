@@ -40,3 +40,8 @@
     // Generics Classes
     // Special TypeScript Types - Utility Types
 }
+
+06 -  데코레이터
+{
+    
+}
