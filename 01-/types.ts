@@ -24,9 +24,9 @@ let arr2: Array<number> = [1, 2, 3];
 let bignum: bigint = 1111n;
 
 enum Color {
-    Red = 1,
-    Green = 'green',
-    Blue = 2,
+  Red = 1,
+  Green = 'green',
+  Blue = 2,
 }
 
 let c: Color = Color.Green;
@@ -35,7 +35,7 @@ let anything: any = 4;
 
 // 실제로는 undefined 반환함
 function warnUser(): void {
-    console.log('This is a warning message');
+  console.log('This is a warning message');
 }
 
 let n: null = null;
@@ -57,18 +57,18 @@ let p1: Point = { x: 10, y: 20 };
 
 // Interface
 interface Person {
-    name: string;
-    age?: number; // 선택적 속성 '?'
+  name: string;
+  age?: number; // 선택적 속성 '?'
 }
 
 let user1: Person = { name: 'Alice' };
 
 // Intersection Types
 interface A {
-    a: string;
+  a: string;
 }
 interface B {
-    b: number;
+  b: number;
 }
 
 type C = A & B;
